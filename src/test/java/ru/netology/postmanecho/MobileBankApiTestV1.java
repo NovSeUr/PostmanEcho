@@ -1,4 +1,4 @@
-package ru.netology.rest;
+package ru.netology.postmanecho;
 
 
 import org.junit.jupiter.api.Test;
@@ -20,7 +20,7 @@ class MobileBankApiTestV1 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some value"))
+                .body("data", equalTo("some vaue"))
         ;
     }
 }
